@@ -1,0 +1,8 @@
+name: 'Text field storage'
+description: 'Field storage configurations for text and summary text fields.'
+type: 'Field storage'
+recipes:
+  - bikeclub-format_editor
+install:
+  - node
+  - text
