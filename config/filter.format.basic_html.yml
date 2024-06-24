@@ -7,7 +7,6 @@ dependencies:
     - core.entity_view_mode.media.small
     - core.entity_view_mode.media.window_popup
   module:
-    - club
     - editor
     - linkit
     - media
