@@ -1,8 +1,11 @@
 name: 'Text field storage'
 description: 'Text field storage configuration and Basic HTML text format and editor.'
 type: 'Field storage'
+recipes:
+  - bikeclub-media
 install:
   - ckeditor5
+  - media
   - node
   - text
 # Contrib
