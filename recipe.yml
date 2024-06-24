@@ -1,8 +1,18 @@
 name: 'Text field storage'
-description: 'Field storage configurations for text and summary text fields.'
+description: 'Text field storage configuration and Basic HTML text format and editor.'
 type: 'Field storage'
-recipes:
-  - bikeclub-format_editor
 install:
+  - ckeditor5
   - node
   - text
+# Contrib
+  - linkit
+config:
+  import:
+    linkit:
+      - 'image.style.linkit_result_thumbnail'
+      - 'linkit.linkit_profile.default'
+# All roles can use Basic html where allowed (not on ride pages).
+  actions:
+    user.role.authenticated:
+      grantPermission: 'use text format basic_html'

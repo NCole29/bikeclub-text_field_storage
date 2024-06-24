@@ -11,10 +11,7 @@
             "role": "Maintainer"
         }
     ],
-    "repositories": {
-        "bikeclub-format_editor": {
-            "type": "git",
-            "url": "https://github.com/NCole29/bikeclub-format_editor"
-        }
-	}
+    "require": {
+		"drupal/linkit": "^6.0"
+    }
 }

@@ -2,8 +2,12 @@
 
 ## Overview
 
-Installs field_storage for the "Text" node field used by all content types.
+Installs:
+- Field_storage for the "Text" node field used by most content types.
+- Configuration for the Basic HTML text format and editor.
 
-## Recipes Required by this Recipe
+## Contributed Modules Installed by the Recipe
 
- - bikeclub-format_editor
+Module 				  | Description
+----------------------|------------
+Linkit				  | Provides an autocomplete interface for entering links in the text editor.
