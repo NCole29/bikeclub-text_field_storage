@@ -1,0 +1,14 @@
+{
+    "name": "bikeclub/bikeclub-text_field_storage",
+    "description": "Installs Webform, used for registration forms.",
+    "keywords": ["recipe", "Page access"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Nancy Cole",
+            "homepage": "https://bikeclubsites.com",
+            "role": "Maintainer"
+        }
+    ]
+}
