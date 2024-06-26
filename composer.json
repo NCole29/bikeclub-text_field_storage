@@ -1,6 +1,6 @@
 {
     "name": "bikeclub/bikeclub-text_field_storage",
-    "description": "Installs Webform, used for registration forms.",
+    "description": "Installs text field storage and Basic HTML text format.",
     "keywords": ["recipe", "Page access"],
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",

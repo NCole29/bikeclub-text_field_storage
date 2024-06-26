@@ -1,5 +1,5 @@
 name: 'Text field storage'
-description: 'Text field storage configuration and Basic HTML text format and editor.'
+description: 'Installs text field storage and Basic HTML text format.'
 type: 'Field storage'
 recipes:
   - bikeclub-media
